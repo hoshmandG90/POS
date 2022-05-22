@@ -1,6 +1,6 @@
 <div class="m-8 ">
     @section('title','Report')
-    <a href="{{ route('Box') }}" class="rounded px-3 mb-2 py-2  m-1 border-b-4 border-l-2 shadow-lg bg-blue-800 border-blue-900 text-white">
+    <a href="{{ route('welcome') }}" class="rounded px-3 mb-2 py-2  m-1 border-b-4 border-l-2 shadow-lg bg-blue-800 border-blue-900 text-white">
         گەڕانەوە
     </a>
     <h1 class="text-center text-xl my-4">بەشی ڕاپۆرتی پارە</h1>

@@ -73,7 +73,6 @@ Route::get('Index',App\Http\Controllers\return\Index::class)->name('ReturnIndex'
 
 Route::get('View',App\Http\Controllers\return\View::class)->name('ReturnView');
 
-Route::get('Report',App\Http\Controllers\Report\Index::class)->name('Report');
 Route::get('Report/Money',App\Http\Controllers\Report\Money::class)->name('ReportMoney');
 
 

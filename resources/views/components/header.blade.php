@@ -98,8 +98,8 @@
     
 
     <div class="p-2 w-full md:w-60  ">
-        <a href="{{ route('Report') }}" 
-            class="flex flex-col items-center justify-center space-y-3 p-4 bg-white rounded-lg shadow-xs  {{  Request::is('Report') ? 'bg-blue-300 text-gray-100' :' ' }} cursor-pointer ">
+        <a href="{{ route('ReportMoney') }}" 
+            class="flex flex-col items-center justify-center space-y-3 p-4 bg-white rounded-lg shadow-xs  {{  Request::is('ReportMoney') ? 'bg-blue-300 text-gray-100' :' ' }} cursor-pointer ">
             <img src="https://cdn-icons-png.flaticon.com/512/3596/3596029.png"
                 class="w-10 h-10 img-fluid img-responsive " alt="">
 
