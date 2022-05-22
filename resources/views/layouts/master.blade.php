@@ -14,6 +14,8 @@
     @livewireStyles
 
     <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+    <link rel="mainfest" href="/mainfest.json">
+
 
 </head>
 
@@ -42,6 +44,8 @@
            object.play();
         });
     </script>
+      
+      
 
 
 </body>

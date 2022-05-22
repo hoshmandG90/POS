@@ -7,6 +7,7 @@
     <link href="{{ asset('assets/img/favicon.ico') }}" rel="shortcut icon">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+    <link rel="mainfest" href="/mainfest.json">
 
     @livewireScripts
    
