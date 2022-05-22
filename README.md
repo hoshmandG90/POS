@@ -23,6 +23,24 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Learning Laravel
 
+## Demo project you can see the screenshot in order to get it how we did it !
+![Login - Google Chrome 5_18_2022 2_44_14 PM](https://user-images.githubusercontent.com/90029989/169712050-f14f5e4a-d983-4cb6-b48f-1c2a402ee647.png)
+![Notification - Google Chrome 5_18_2022 2_47_53 PM](https://user-images.githubusercontent.com/90029989/169712066-4dbc4233-1665-498a-afbe-7dc5dd22ce2d.png)
+![Notification - Google Chrome 5_18_2022 2_48_07 PM](https://user-images.githubusercontent.com/90029989/169712068-532d861a-e1e1-4fa0-9428-8c38debfbecc.png)
+![Notification - Google Chrome 5_18_2022 2_48_33 PM](https://user-images.githubusercontent.com/90029989/169712070-e663b0a4-3216-4693-a326-203bd6dfa45e.png)
+![Notification - Google Chrome 5_18_2022 2_48_39 PM](https://user-images.githubusercontent.com/90029989/169712071-4b725967-e60a-45fa-bee8-8923aee5af57.png)
+![Notification - Google Chrome 5_18_2022 2_48_54 PM](https://user-images.githubusercontent.com/90029989/169712072-1d1ea47c-f6c7-4b7c-805f-059357defe01.png)
+![Notification - Google Chrome 5_18_2022 2_49_11 PM](https://user-images.githubusercontent.com/90029989/169712073-eff52c97-3314-44b8-8cbc-d549aa34e268.png)
+![Login - Google Chrome 5_18_2022 2_44_35 PM](https://user-images.githubusercontent.com/90029989/169712074-4d500905-bb2f-41ff-8d32-17cd6f56e046.png)
+![Login - Google Chrome 5_18_2022 2_44_46 PM](https://user-images.githubusercontent.com/90029989/169712075-f0fae4bd-e4af-493b-bb45-2092f69c4543.png)
+![Login - Google Chrome 5_18_2022 2_44_55 PM](https://user-images.githubusercontent.com/90029989/169712076-efaa7c81-9aa9-4f04-bff8-fe9ab911fdbe.png)
+![Notification - Google Chrome 5_18_2022 2_45_48 PM](https://user-images.githubusercontent.com/90029989/169712077-f78728f2-3d4d-4623-ad91-d9a2a3d4ef91.png)
+![Notification - Google Chrome 5_18_2022 2_47_11 PM](https://user-images.githubusercontent.com/90029989/169712079-32843ad8-eecc-4337-aa65-788c4547ef63.png)
+![Notification - Google Chrome 5_18_2022 2_47_35 PM](https://user-images.githubusercontent.com/90029989/169712080-8d33b2cd-5242-4672-8243-8ac7c80cecfc.png)
+![Notification - Google Chrome 5_22_2022 10_16_32 PM](https://user-images.githubusercontent.com/90029989/169712113-320347cb-53ed-440f-98a7-71c93b291b31.png)
+
+
+
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
