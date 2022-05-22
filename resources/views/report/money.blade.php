@@ -36,15 +36,15 @@
                     بینینی ڕاپۆرت بە  دیاری کردنی بەروار
       
                 </p>
-                <input wire:model="Date" type="date"  placeholder=""
+                <input wire:model="option1" type="date"  placeholder=""
                 class="w-full pl-6 pr-2
                      text-gray-400 py-2 my-2 bg-gray-200   focus:bg-white focus:border-purple-300 focus:outline-none rounded-md focus:shadow-outline-purple">   
 
                      <p class="text-center">بۆ</p>
-                     <input wire:model="Date" type="date"  placeholder=""
+                     <input wire:model="option2" type="date"  placeholder=""
                      class="w-full pl-6 pr-2
                           text-gray-400 py-2 my-2 bg-gray-200   focus:bg-white focus:border-purple-300 focus:outline-none rounded-md focus:shadow-outline-purple">   
-             <a wire:click.prevent="ViewReport"    class="bg-pink-500 flex mt-6 flex justify-center  shadow-md text-sm text-white font-bold py-3 px-4 hover:bg-pink-600 rounded uppercase" 
+             <a wire:click.prevent="ViewReportBetweenTwoDays"    class="bg-pink-500 flex mt-6 flex justify-center  shadow-md text-sm text-white font-bold py-3 px-4 hover:bg-pink-600 rounded uppercase" 
                 href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -64,43 +64,48 @@
             <div class="flex overflow-hidden rounded-lg border border-gray-500">
                 
                 <div class="flex items-center justify-between flex-1 p-3">
-                    <p class="text-2xl font-semibold">200</p>
+                    <p class="text-2xl font-semibold">{{ number_format($find_para_naqad_sum,0,'.','.') }} <span class="text-sm mt-1 text-red-500">USD</span></p>
                     <p>کۆی پارە فرۆشتن بە نەقد</p>
                 </div>
             </div>
             <div class="flex overflow-hidden rounded-lg border border-gray-500">
                 
                 <div class="flex items-center justify-between flex-1 p-3">
-                    <p class="text-2xl font-semibold">200</p>
+                    <p class="text-2xl font-semibold">{{ number_format($find_para_sarfkrdn_sum,0,'.','.') }} <span class="text-sm mt-1 text-red-500">USD</span></p>
+                    
                     <p>کۆی پارەی سەرفکردن</p>
+                    
                 </div>
             </div>
 
              <div class="flex overflow-hidden rounded-lg border border-gray-500">
                 
                 <div class="flex items-center justify-between flex-1 p-3">
-                    <p class="text-2xl font-semibold">200</p>
+                    <p class="text-2xl font-semibold">{{ number_format($find_date_qarz_company_sum,0,'.','.') }} <span class="text-sm mt-1 text-red-500">USD</span></p>
                     <p>کۆی قەرزی کڕین لە کۆمپانیاکان</p>
                 </div>
             </div>
             <div class="flex overflow-hidden rounded-lg border border-gray-500">
                 
                 <div class="flex items-center justify-between flex-1 p-3">
-                    <p class="text-2xl font-semibold">200</p>
+                    <p class="text-2xl font-semibold">{{ number_format($find_para_mwade_kraw_sum,0,'.','.') }} <span class="text-sm mt-1 text-red-500">USD</span></p>
+                    
                     <p>کۆی پارەی مەوادی کراو</p>
                 </div>
             </div>
             <div class="flex overflow-hidden rounded-lg border border-gray-500">
                 
                 <div class="flex items-center justify-between flex-1 p-3">
-                    <p class="text-2xl font-semibold">200</p>
+                    <p class="text-2xl font-semibold">{{ number_format($find_para_qazanj_kala_sum,0,'.','.') }} <span class="text-sm mt-1 text-red-500">USD</span></p>
+                    
                     <p>کۆی پارەی قازانج کاڵا فرۆشتن</p>
                 </div>
             </div>
             <div class="flex overflow-hidden rounded-lg border border-gray-500">
                 
                 <div class="flex items-center justify-between flex-1 p-3">
-                    <p class="text-2xl font-semibold">200</p>
+                    <p class="text-2xl font-semibold">{{ number_format($find_para_qarz_sum,0,'.','.') }} <span class="text-sm mt-1 text-red-500">USD</span></p>
+                    
                     <p>کۆی پارەی فرۆشتن بە قەرز</p>
                 </div>
             </div>
